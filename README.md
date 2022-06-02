@@ -9,6 +9,9 @@
 > brew services restart tor
 > proxychains4 -f proxychains.conf curl ipinfo.io
 
+# launch browser: (not working on safari/chrome)
+> proxychains4 -f proxychains.conf proxychains4 /Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox
+
 # socksify terminal command:
 > export http_proxy=socks5://127.0.0.1:9050
 > export https_proxy=socks5://127.0.0.1:9050
